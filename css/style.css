@@ -1,0 +1,400 @@
+body {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    font-family: 'Overpass', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+#navigation {
+    background-color: white;
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    width: 400px;
+    height: 90px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgba(172, 172, 172, 0.308);
+}
+
+.navButton {
+    text-align: center;
+}
+
+.navButton img {
+    width: 25px;
+    height: 25px;
+}
+
+#topProfile {
+    background: linear-gradient(to bottom right, #E9973E, #CD3C47);
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.profileIcon {
+    width: auto;
+    height: 70px;
+}
+
+.profileIcon img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.pageTitle {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.pageTitle h1 {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+#mainContent {
+    background: linear-gradient(to top, #EBEBEB, white);
+    width: auto;
+    padding: 20px;
+    margin-bottom: 90px;
+}
+
+.card {
+    background-color: rgb(54, 54, 53);
+    box-shadow: 0px 0px 7px rgb(215, 215, 215);
+    margin-bottom: 30px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.refer {
+    width: auto;
+    color: white;
+}
+
+.classesText {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.classOption {
+    background-color: #ECE7E0;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    justify-content: space-around;
+    align-items: center;
+    display: inline-flex;
+}
+
+.classOption button {
+    width: 50%;
+    height: 90%;
+    border-radius: 7px;
+}
+
+.upcomingClass {
+    background-color: white;
+    display: flex;
+    width: auto;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.classContent img{
+    background-color: #FDF7EE;
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
+}
+
+.crunchMeter {
+    color: white;
+}
+
+.request {
+    color: white;
+}
+
+.nutrition {
+    color: white;
+}
+
+.homeClub {
+    border-radius: 7px;
+    background-color: white;
+}
+
+.clubText {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.clubTopImage {
+    background-color: black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: block;
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+    text-align: end;
+    color: white;
+    padding: 0px 60px;
+}
+
+.clubLocation {
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.clubLocation img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-right: 10px;
+}
+
+.mapAddress {
+    display: inline-flex;
+    justify-content: start;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    display: inline;
+    width: 100%;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 7px;
+    border: 2px solid rgb(189, 189, 189);
+    padding: 10px;
+}
+
+.searchButton {
+    display: inline;
+    width: 70px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: #FDF7EE;
+}
+
+.mapInteract {
+    height: 330px;
+    background-color: white;
+}
+
+.mapHours {
+    background-color: white;
+}
+
+.mapHours p1 {
+    width: auto;
+    display: block;
+}
+
+.mapGraph {
+    background-color: white;
+}
+
+.mapGraphdisplay {
+    width: 100%;
+    height: 30px;
+}
+
+.mapGraph p1 {
+    display: block;
+}
+
+.mapGraph span {
+    font-weight: bold;
+    color: red;
+}
+.mapGraph .BestTime{
+    color: black;
+}
+
+.reserveButton {
+    width: 100%;
+    height: 45px;
+    background-color: #E9973E;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.myWorkout {
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 7px rgb(215, 215, 215);
+}
+
+.myWorkoutdisplay {
+    display: flex;
+    width: auto;
+    height: 123px;
+    background-image: url(../images/treadmill-testing-0367-1578930314.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0px 15px;
+    align-items: center;
+    color: white;
+}
+
+.myWorkouttext {
+    text-align: center;
+    padding: 30px;
+}
+
+.myWorkouttext img {
+    border-radius: 7px;
+    width: 80px;
+    height: 80px;
+}
+
+#reserveOptions {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.reserveList {
+    display: block;
+    width: 100%;
+}
+
+.availStations {
+    display: flex;
+    justify-content: start;
+}
+
+.reserveCard {
+    display: flex;
+    background-color: white;
+    margin-bottom: 15px;
+    width: auto;
+    border-radius: 7px;
+    align-items: center;
+    padding: 5px 15px;
+    justify-content: space-between;
+}
+
+.addWorkout {
+    margin: 0 auto;
+    width: auto;
+    padding: 7px 30px;
+    color: #E9973E;
+    background-color: #FDF7EE;
+    border-radius: 7px;
+}
+.mapGraph img{
+    margin: 0px;
+}
+.pageTitle img{
+    margin: 0px;
+    margin-right: 6px;
+    margin-bottom: 12px;
+}
+.mapAddress .searchButton{
+    border-width: 1px;
+}
+
+.Battery img{
+    margin: 0px;
+    background: linear-gradient(to top right, #E9973E, #CD3C47);
+}
+.mapImage img{
+    margin: 0px;
+    padding-bottom: 30px;
+}
+.topProfileInfo .profileIcon{
+    margin: 0px;
+}
+.mapGraph .secondMap{
+    margin: 3px;
+    width: 318px;
+}
+.crunch h2 {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 7px;
+}
+.profileIcon img{
+    margin: 0px;
+    background: none;
+    width: 50px;
+    height: 50px;
+}
+
+.crunch .crunchLogo1{
+    margin: 0px;
+    background: none;
+    height: 84px;
+    width: 156px;
+    margin-left: 18px;
+    opacity: 70%;
+}
+.crunch{
+    margin: 0px;
+    flex-direction: row;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
