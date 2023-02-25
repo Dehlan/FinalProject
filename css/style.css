@@ -62,13 +62,18 @@ a {
 .pageTitle {
     width: 100%;
     height: auto;
+    text-align: center;
     display: inline-block;
 }
 
 .pageTitle h1 {
     display: inline-block;
     font-size: 24px;
-    margin-left: 60px;
+    width: 200px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
 #mainContent {
@@ -269,7 +274,7 @@ a {
     display: flex;
     width: auto;
     height: 123px;
-    background-image: url(../images/treadmill-testing-0367-1578930314.jpg);
+    background-image: url(../images/My\ workout\ img.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-top-left-radius: 7px;
@@ -324,14 +329,14 @@ a {
     color: #E9973E;
     background-color: #FDF7EE;
     border-radius: 7px;
+    border: none;
 }
 .mapGraph img{
     margin: 0px;
 }
 .pageTitle img{
     margin: 0px;
-    margin-right: 6px;
-    margin-bottom: 12px;
+    margin-left: 2px;
 }
 .mapAddress .searchButton{
     border-width: 1px;
@@ -377,12 +382,56 @@ a {
     flex-direction: row;
     display: flex;
 }
-
-
-
-
-
-
+.reserveButton{
+    cursor: pointer;
+}
+.myWorkoutdisplay h1{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.myWorkouttext img{
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.myWorkouttext h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.myWorkouttext p{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.backArrowButton{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 36px;
+    height: 34px;
+    background: white;
+    border-radius: 9px;
+    border: none;
+}
+.crunch p{
+    margin: 0px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14;
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    margin-right: 8px;
+}
 
 
 
