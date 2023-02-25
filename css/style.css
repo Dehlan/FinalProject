@@ -92,7 +92,16 @@ a {
 }
 
 .refer {
+    display: flex;
     width: auto;
+    height: 123px;
+    background-image: url(../images/Friends\ workingout.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0px 15px;
+    align-items: center;
     color: white;
 }
 
@@ -105,7 +114,6 @@ a {
 }
 
 .classOption {
-    background-color: #ECE7E0;
     width: 100%;
     height: 35px;
     margin-bottom: 10px;
@@ -119,17 +127,32 @@ a {
     width: 50%;
     height: 90%;
     border-radius: 7px;
+    background-color: #E9973E;
+    border: none;
+    color: white;
 }
-
+.classOption .BookedButton{
+    width: 50%;
+    height: 90%;
+    border-radius: 7px;
+    background-color: #E9973E;
+    border: none;
+    color: white;
+}
+.UpcommingButton{
+    border: none;
+}
 .upcomingClass {
     background-color: white;
     display: flex;
     width: auto;
-    height: 400px;
+    height: 290px;
     align-items: center;
     text-align: center;
 }
-
+.classesText h3{
+    color: #E9973E;
+}
 .classContent img{
     background-color: #FDF7EE;
     border-radius: 7px;
@@ -457,7 +480,6 @@ a {
     border-top-right-radius: 7px;
     padding: 0px 15px;
     align-items: center;
-    color: white;
 }
 .request h2{
     font-family: 'Overpass';
@@ -465,11 +487,34 @@ a {
     font-weight: 600;
     font-size: 24px;
 }
-
-
-
-
-
+.classContent img{
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.classContent h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.classContent p{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.NoJudgments h1{
+    margin: 0px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-right: 17px;
+}
+.clubText h3{
+    margin: 0px;
+    color: #E9973E;
+}
 
 
 
