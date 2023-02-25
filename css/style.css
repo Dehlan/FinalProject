@@ -381,6 +381,7 @@ a {
     margin: 0px;
     flex-direction: row;
     display: flex;
+    gap: 45px;
 }
 .reserveButton{
     cursor: pointer;
@@ -432,9 +433,40 @@ a {
     margin-top: 54px;
     margin-right: 8px;
 }
-
-
-
+.pageTitle .backArrowButton{
+    cursor: pointer;
+}
+.GuestText{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 20px
+}
+.GuestText p{
+    margin: 0px;
+}
+.GuestText h2{
+    margin: 0px;
+}
+.request{
+    display: flex;
+    width: auto;
+    height: 123px;
+    background-image: url(../images/crunch\ trainer\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0px 15px;
+    align-items: center;
+    color: white;
+}
+.request h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
 
 
 
