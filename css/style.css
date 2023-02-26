@@ -140,13 +140,14 @@ a {
     height: 290px;
     align-items: center;
     text-align: center;
+    padding: 0px;
 }
 .classesText h3{
     color: #E9973E;
     font-family: 'Overpass';
     font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 16px;
     margin: 0px;
     margin-top: 30px;
 }
@@ -481,7 +482,7 @@ a {
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 }
 .classContent img{
     margin: 0px;
@@ -554,26 +555,26 @@ a {
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 }
 .crunchMeter h2{
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 }
 .refer h2{
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 }
 .NoJudgments {
     margin: 0px;
     padding-top: 7px;
 }
 .classesText h2{
-    color: black;
+    color: rgb(102, 99, 99);
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 800;
@@ -582,7 +583,7 @@ a {
     margin-top: 30px;
 }
 .clubText h2{
-    color: black;
+    color: rgb(102, 99, 99);
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 800;
@@ -594,8 +595,47 @@ a {
     color: #E9973E;
     font-family: 'Overpass';
     font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 18px;
+}
+.clubLocation p{
+    font-family: 'Overpass';
+    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     margin: 0px;
-    margin-top: 18px;
+}
+.classContent p{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.clubLocation h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0px;
+}
+.crunchMeter {
+    display: flex;
+    width: auto;
+    height: 123px;
+    background-image: url(../images/Meter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0px 15px;
+    align-items: center;
+}
+.clubLocation h4{
+    color: #E9973E;
+    font-family: 'Overpass';
+    font-style: normal;
+    margin: 0px;
+    margin-top: 10px;
 }
