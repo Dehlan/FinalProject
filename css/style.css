@@ -123,19 +123,10 @@ a {
     display: inline-flex;
 }
 
-.classOption button {
-    width: 50%;
-    height: 90%;
-    border-radius: 7px;
-    background-color: #E9973E;
-    border: none;
-    color: white;
-}
 .classOption .BookedButton{
     width: 50%;
-    height: 90%;
     border-radius: 7px;
-    background-color: #E9973E;
+    background-color: #e7e1db;
     border: none;
     color: white;
 }
@@ -515,10 +506,25 @@ a {
     margin: 0px;
     color: #E9973E;
 }
-
-
-
-
+.classOption .UpcomingButton button{
+    width: 100%;
+    height: 90%;
+    border-radius: 7px;
+    background-color: #E9973E;
+    border: none;
+    color: white;
+}
+.classOption .BookedButton button{
+    width: 100%;
+    height: 90%;
+    border-radius: 7px;
+    background-color: #e9e7e5;
+    border: none;
+    color: #E9973E;
+}
+.UpcomingButton{
+    width: 50%;
+}
 
 
 
