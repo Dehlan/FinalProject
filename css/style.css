@@ -143,6 +143,12 @@ a {
 }
 .classesText h3{
     color: #E9973E;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 30px;
 }
 .classContent img{
     background-color: #FDF7EE;
@@ -173,8 +179,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 30px;
-    margin-top: 20px;
+    height: auto;
 }
 
 .clubTopImage {
@@ -475,7 +480,7 @@ a {
 .request h2{
     font-family: 'Overpass';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 24px;
 }
 .classContent img{
@@ -513,6 +518,10 @@ a {
     background-color: #E9973E;
     border: none;
     color: white;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
 }
 .classOption .BookedButton button{
     width: 100%;
@@ -521,10 +530,72 @@ a {
     background-color: #e9e7e5;
     border: none;
     color: #E9973E;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
 }
 .UpcomingButton{
     width: 50%;
 }
-
-
-
+.nutrition {
+    display: flex;
+    width: auto;
+    height: 123px;
+    background-image: url(../images/Protien.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0px 15px;
+    align-items: center;
+}
+.nutrition h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.crunchMeter h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.refer h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.NoJudgments {
+    margin: 0px;
+    padding-top: 7px;
+}
+.classesText h2{
+    color: black;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 30px;
+}
+.clubText h2{
+    color: black;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 18px;
+}
+.clubText h3{
+    color: #E9973E;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 18px;
+}
